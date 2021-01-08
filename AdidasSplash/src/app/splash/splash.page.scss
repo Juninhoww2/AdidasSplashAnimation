@@ -1,0 +1,23 @@
+
+ion-content {
+    --background: black;
+}
+
+
+
+ @-webkit-keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+
+.container {
+    -webkit-animation:rotate-center 1s ease-in-out both;animation:rotate-center 1s ease-in-out both;
+    img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 961px) {
+    img { 
+        height: 961px;
+        padding: 50px;
+    }
+}
